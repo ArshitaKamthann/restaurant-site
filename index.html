@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gourmet Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Gourmet Hub</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="darkModeToggle">🌙</button>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h1>Welcome to Gourmet Hub</h1>
+      <p>Where taste meets the myth</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <input type="text" id="searchInput" placeholder="Search dishes...">
+    <div class="menu-container" id="menuContainer"></div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/orange/hero/7.jpg?tr=w-3840,q-50" alt="Dish 1" />
+      <img src="https://www.willflyforfood.net/wp-content/uploads/2022/10/german-food-labskaus.jpg" alt="Dish 2" />
+      <img src="https://assets.zeezest.com/images/PROD_3_1662611644161.jpg" alt="Dish 3" />
+      <img src="https://img.freepik.com/premium-photo/indian-hindu-veg-thali-also-known-as-food-platter-is-complete-lunch-dinner-meal-closeup-selective-focus_466689-9137.jpg?w=2000" alt="Interior" />
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Table</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Guests" required />
+      <button type="submit">Reserve</button>
+    </form>
+    <p id="bookingMessage"></p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <ul class="event-list">
+      <li><strong>Live Music Night:</strong> Every Friday 7PM - 10PM</li>
+      <li><strong>Wine Tasting:</strong> 15th of every month</li>
+      <li><strong>Chef's Special Weekend:</strong> Exclusive dishes every Saturday & Sunday</li>
+    </ul>
+  </section>
+
+  <section id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.EeYVQmrl6Ab_uKyWLFHgYgHaEK&pid=Api&P=0&h=220" alt="Chef A">
+        <h3>Chef Antonio</h3>
+        <p>Executive Chef</p>
+      </div>
+      <div class="team-member">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.nt2PBP8rwVKKVDNi5YScdwHaJ3&pid=Api&P=0&h=220" alt="Chef B">
+        <h3>Chef Bella</h3>
+        <p>Pastry Specialist</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-carousel">
+      <blockquote>"Absolutely the best dining experience I've had in years!" - Jamie</blockquote>
+      <blockquote>"The food, ambiance, and staff were all top-notch." - Morgan</blockquote>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@gourmethub.com</p>
+    <p>Phone: +1-234-567-890</p>
+    <p>Location: 123 Gourmet Street, Food City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gourmet Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
